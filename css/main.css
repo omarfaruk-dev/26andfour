@@ -54,7 +54,7 @@ h1, .subhead {
 
 .blue-container {
     width: 100%;
-    background: #0389b3;
+    background: rgb(0, 194, 255);
     color: #fff;
     margin-top: 15%;
     padding: 4em 0 2em;
@@ -66,7 +66,7 @@ h1, .subhead {
     content: "";
     width: 40px;
     height: 40px;
-    background-color: #0389b3;
+    background-color: rgb(0, 194, 255);
     position: absolute;
     top: -39px;
     right: 0;
@@ -122,7 +122,7 @@ figure {
 
 figcaption {
     font-weight: bold;
-    color: #0389b3;
+    color: rgb(0, 194, 255);
 }
 
 h2 {
@@ -151,7 +151,10 @@ h2 {
     border-top-right-radius: 40px;
     transform: skewY(2deg);
 }
-
+.footer-container a {
+    color: #fff;
+    text-decoration: none;
+}
 .footer-container .container {
     transform: skewY(-2deg);
 }
